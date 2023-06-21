@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/dist/output.css">
+</head>
+<body class="">
+    <!-- Main wrapper starts -->
+    <div class="wrapper flex h-screen">
+        <!-- left nav start -->
+        <div class="hidden md:flex w-1/5 border-r-2 border-gray-200">
+            <div class="mt-10 ml-5">
+                <div>
+                    <img class="w-24" src="insta.png" alt="">
+                </div>
+                <div class="mt-10 w-full flex space-x-4 items-center px-4 py-4 hover:bg-slate-200 rounded-xl text-gray-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                    </svg>
+                    <div class="font-bold">Home</div>
+                </div>
+                <div class="mt-1 w-full flex space-x-4 items-center px-4 py-4 hover:bg-slate-200 rounded-xl text-gray-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                    </svg>
+                    <div class="font-bold">Search</div>
+                </div>
+                <div class="mt-1 w-full flex space-x-4 items-center px-4 py-4 hover:bg-slate-200 rounded-xl text-gray-800">
+                    <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"></path><path d="m8 16 5.991-2L16 8l-6 2z"></path></svg>
+                    <div class="font-bold">Explore</div>
+                </div>
+                <div class="mt-1 w-full flex space-x-4 items-center px-4 py-4 hover:bg-slate-200 rounded-xl text-gray-800">
+                    <img class="w-6 h-6" src="reels.png" alt="">
+                    <div class="font-bold">Reels</div>
+                </div>
+                <div class="mt-1 w-full flex space-x-4 items-center px-4 py-4 hover:bg-slate-200 rounded-xl text-gray-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
+                    </svg>
+                    <div class="font-bold">Messages</div>
+                </div>
+                <div class="mt-1 w-full flex space-x-4 items-center px-4 py-4 hover:bg-slate-200 rounded-xl text-gray-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                    </svg>
+                    <div class="font-bold">Notifications</div>
+                </div>
+                <div class="mt-1 w-full flex space-x-4 items-center px-4 py-4 hover:bg-slate-200 rounded-xl text-gray-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <div class="font-bold">Create</div>
+                </div>
+                <div class="mt-1 w-full flex space-x-4 items-center px-4 py-4 hover:bg-slate-200 rounded-xl text-gray-800">
+                    <img class="w-6 h-6 rounded-full" src="perfil.jpg" alt="">
+                    <div class="font-bold">Profile</div>
+                </div>
+                <div class="mt-1 w-full flex space-x-4 items-center px-4 py-4 hover:bg-slate-200 rounded-xl text-gray-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                    <div class="font-bold">More</div>
+                </div>
+            </div>
+        </div>
+        <!-- left nav ends -->
+        <!-- left feeds start -->
+        <div class="flex flex-col w-full mt-8 mb-8 mr-2 ml-2 md:mr-16 md:ml-16 md:w-1/2">
+            <div class="p-5 m-2">
+                <ul class="flex justify-between space-x-4">
+                    <li class="flex flex-col items-center">
+                        <div class="bg-gradient-to-tr from-yellow-500 via-pink-500 to-purple-500 p-0.5 rounded-full">
+                            <a href="">
+                                <img src="perfil.jpg" alt="" class="rounded-full w-16 h-16">
+                            </a>
+                        </div>
+                        <div class="font-semibold text-gray-500">
+                            hernandez...
+                        </div>
+                    </li>
+                    <li class="flex flex-col items-center">
+                        <div class="bg-gradient-to-tr from-yellow-500 via-pink-500 to-purple-500 p-0.5 rounded-full">
+                            <a href="">
+                                <img src="perfil.jpg" alt="" class="rounded-full w-16 h-16">
+                            </a>
+                        </div>
+                        <div class="font-semibold text-gray-500">
+                            hernandez...
+                        </div>
+                    </li>
+                    <li class="flex flex-col items-center">
+                        <div class="bg-gradient-to-tr from-yellow-500 via-pink-500 to-purple-500 p-0.5 rounded-full">
+                            <a href="">
+                                <img src="perfil.jpg" alt="" class="rounded-full w-16 h-16">
+                            </a>
+                        </div>
+                        <div class="font-semibold text-gray-500">
+                            hernandez...
+                        </div>
+                    </li>
+                    <!-- <li class="flex flex-col items-center">
+                        <div class="bg-gradient-to-tr from-yellow-500 via-pink-500 to-purple-500 p-0.5 rounded-full">
+                            <a href="">
+                                <img src="perfil.jpg" alt="" class="rounded-full w-16 h-16">
+                            </a>
+                        </div>
+                        <div class="font-semibold text-gray-500">
+                            hernandez...
+                        </div>
+                    </li> -->
+                    <!-- <li class="flex flex-col items-center">
+                        <div class="bg-gradient-to-tr from-yellow-500 via-pink-500 to-purple-500 p-0.5 rounded-full">
+                            <a href="">
+                                <img src="perfil.jpg" alt="" class="rounded-full w-16 h-16">
+                            </a>
+                        </div>
+                        <div class="font-semibold text-gray-500">
+                            hernandez...
+                        </div>
+                    </li> -->
+                    <li class="flex flex-col items-center">
+                        <div class="bg-gradient-to-tr from-yellow-500 via-pink-500 to-purple-500 p-0.5 rounded-full hidden md:flex">
+                            <a href="">
+                                <img src="perfil.jpg" alt="" class="rounded-full w-16 h-16">
+                            </a>
+                        </div>
+                        <div class="hidden md:flex font-semibold text-gray-500">
+                            hernandez...
+                        </div>
+                    </li>
+                    <li class="flex flex-col items-center">
+                        <div class="bg-gradient-to-tr from-yellow-500 via-pink-500 to-purple-500 p-0.5 rounded-full hidden md:flex">
+                            <a href="">
+                                <img src="perfil.jpg" alt="" class="rounded-full w-16 h-16">
+                            </a>
+                        </div>
+                        <div class="hidden md:flex font-semibold text-gray-500">
+                            hernandez...
+                        </div>
+                    </li>
+                    <li class="flex flex-col items-center">
+                        <div class="bg-gradient-to-tr from-yellow-500 via-pink-500 to-purple-500 p-0.5 rounded-full hidden md:flex">
+                            <a href="">
+                                <img src="perfil.jpg" alt="" class="rounded-full w-16 h-16">
+                            </a>
+                        </div>
+                        <div class="hidden md:flex font-semibold text-gray-500">
+                            hernandez...
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex justify-between items-center md:p-5 md:mr-4 md:ml-4">
+                <!-- Post start here -->
+                <div class="flex m-2 md:m-2 space-x-1 items-center">
+                    <div>
+                        <li class="flex flex-col items-center space-y-1">
+                            <div class="bg-gradient-to-tr from-yellow-500 via-pink-500 to-purple-500 rounded-full p-0.5 items-center">
+                                <a href="" class="bg-white rounded-full p-1 block">
+                                    <img class="rounded-full w-10 h-10" src="perfil.jpg" alt="">
+                                </a>
+                            </div>
+                        </li>
+                    </div>
+                        <div class="font-bold text-sm text-gray-500">hernandez_god</div>
+                        <div class="font-bold text-sm text-gray-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 text-blue-500">
+                                <path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                        <div class="font-bold text-sm text-gray-500">.</div>
+                        <div class="font-bold text-sm text-gray-500">7min</div>
+                </div>
+                <div class="pr-6 md:mr-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="px-4 py-2 md:px-5 md:mr-8 md:ml-8">
+                <div>
+                    <img src="post.jpeg" alt="" class="rounded-md">
+                </div>
+            </div>
+            <div class="flex justify-between space-x-4 px-5 md:px-5 md:mr-8 md:ml-8">
+                <div class="flex">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                        </svg>
+                    </div>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="flex justify-between space-x-4 px-5 md:px-5 md:mr-8 md:ml-8">
+                <div class="mt-2 flex space-x-3 items-center font-bold">
+                    <p class="text-gray-500">333,33 Likes</p>
+                </div>
+            </div>
+            <div class="flex flex-col justify-between space-x-4 px-5 md:px-5 md:mr-8 md:ml-8">
+                <div class="mt-2 mr-5 ml-5 flex space-x-3 items-center">
+                    <p class="font-bold text-gray-600">Hernandez <span>que pro que eres</span></p>
+                </div>
+                <div class="mt-2 mr-5 ml-5 flex space-x-3 items-center text-gray-500">
+                    View all 333 comments 
+                </div>
+                <div class="mt-1 w-full mr-5 mb-15 ml-5 space-x-3 items-center text-gray-500">
+                    <input type="text" class="focus:outline-none w-full border-b-2 border-gray-200 py-4" placeholder="Add Comment here..."> 
+                </div>
+            </div>
+        </div>
+        <!-- left feeds ends -->
+        <!-- right nav start -->
+        <div class="hidden md:block mt-8 w-1/3">
+            <div class="flex justify-between mt-8 space-x-2 px-10 items-center">
+                <div class="flex space-x-4">
+                    <div>
+                        <img src="perfil.jpg" alt="" class="rounded-full w-10 h-10">
+                    </div>
+                    <div class="flex flex-col space-y-1 text-gray-400">
+                        <p class="text-sm">
+                            hernandez_god
+                            <br>
+                            <span class="text-sm">HERNANDEZ_GOD</span>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p class="text-blue-400 text-xs font-bold">Switch</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Suggestions -->
+            <div class="flex justify-between mt-4 space-x-2 px-10 items-center">
+                <div class="text-gray-400 font-semibold">Suggestions for you</div>
+                <div class="text-gray-500">See All</div>
+            </div>
+            <div class="flex justify-between mt-4 space-x-2 px-14 items-center">
+                <div class="flex space-x-5 text-gray-400 items-center font-semibold">
+                    <img src="perfil.jpg" alt="" class="rounded-full w-8 h-8">
+                    <p>hernandez_god</p>
+                </div>
+                <div class="text-blue-400 text-xs font-bold">Follow</div>
+            </div>
+            <div class="flex justify-between mt-4 space-x-2 px-14 items-center">
+                <div class="flex space-x-5 text-gray-400 items-center font-semibold">
+                    <img src="perfil.jpg" alt="" class="rounded-full w-8 h-8">
+                    <p>hernandez_god</p>
+                </div>
+                <div class="text-blue-400 text-xs font-bold">Follow</div>
+            </div>
+            <!-- Suggestions -->
+            <!-- Footer -->
+            <div class="flex justify-between mt-4 space-x-2 px-14 items-center">
+                <div class="flex space-x-5 items-center font-semibold">
+                    <p class="text-sm text-gray-500">
+                        About. Help. Press. Job. Privacy. Terms. Location. Language
+                    </p>
+                </div>
+            </div>
+            <div class="flex justify-between mt-4 space-x-2 px-14 items-center">
+                <div class="flex space-x-5 items-center font-semibold">
+                    <p class="text-sm text-gray-500">
+                        2023 INSTAGRAM FROM META
+                    </p>
+                </div>
+            </div>
+            <!-- Footer -->
+        </div>
+        <!-- right nav ends -->
+        <!-- Mobile left nav Starts-->
+        <div class="fixed md:hidden w-full border-t-2 border-gray-200 left-0 right-0 bottom-0 h-10 bg-white items-center">
+            <div class="flex space-x-4 justify-between px-20 py-2 items-center">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-7 h-7">
+                        <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+                        <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+                    </svg>
+                </div>
+                <div>
+                    <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"></path><path d="m8 16 5.991-2L16 8l-6 2z"></path></svg>
+                </div>
+                <div>
+                    <img class="w-6 h-6" src="reels.png" alt="">
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
+                    </svg>
+                </div>
+                <div>
+                    <img src="perfil.jpg" alt="" class="w-6 h-6 rounded-full">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Mobile left nav ends -->
+    <!-- Main wrapper ends-->
+
+<script src="index.js"></script>
+</body>
+</html>
